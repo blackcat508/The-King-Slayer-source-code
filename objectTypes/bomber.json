@@ -1,0 +1,89 @@
+{
+	"name": "bomber",
+	"plugin-id": "Sprite",
+	"sid": 397399798037658,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "waiting",
+			"type": "number",
+			"desc": "",
+			"sid": 828803350864977
+		},
+		{
+			"name": "health",
+			"type": "number",
+			"desc": "",
+			"sid": 470727565697495
+		},
+		{
+			"name": "drop",
+			"type": "number",
+			"desc": "",
+			"sid": 631802620255317
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direction",
+			"sid": 672640287514956
+		},
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 443418783241587
+		},
+		{
+			"behaviorId": "LOS",
+			"name": "LineOfSight",
+			"sid": 935803979309722
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "brightness",
+			"name": "Brightness"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 8,
+						"height": 12,
+						"originX": 0.5,
+						"originY": 0.6666666666666666,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5158552,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.3333333333333334,
+								1,
+								0.3333333333333333,
+								1,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 961590947585015,
+				"name": "idle",
+				"isLooping": true,
+				"isPingPong": true,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 12
+			}
+		],
+		"subfolders": []
+	}
+}

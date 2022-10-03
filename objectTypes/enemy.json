@@ -1,0 +1,195 @@
+{
+	"name": "enemy",
+	"plugin-id": "Sprite",
+	"sid": 766054209951145,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "waiting",
+			"type": "number",
+			"desc": "",
+			"sid": 219440734315740
+		},
+		{
+			"name": "health",
+			"type": "number",
+			"desc": "",
+			"sid": 552798337451468
+		},
+		{
+			"name": "drop",
+			"type": "number",
+			"desc": "",
+			"sid": 668559219908525
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direction",
+			"sid": 453874504129148
+		},
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 596539975318254
+		},
+		{
+			"behaviorId": "LOS",
+			"name": "LineOfSight",
+			"sid": 377703559323021
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "brightness",
+			"name": "Brightness"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 8,
+						"height": 12,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9226957,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 8,
+						"height": 12,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6105028,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 8,
+						"height": 12,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2180776,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 8,
+						"height": 12,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3160021,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 8,
+						"height": 12,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5265352,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 618086757537716,
+				"name": "shooting",
+				"isLooping": false,
+				"isPingPong": true,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 16
+			},
+			{
+				"frames": [
+					{
+						"width": 8,
+						"height": 12,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2889787,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 8,
+						"height": 12,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9966436,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 8,
+						"height": 12,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2938048,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 369861261125937,
+				"name": "idle",
+				"isLooping": true,
+				"isPingPong": true,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 12
+			},
+			{
+				"frames": [
+					{
+						"width": 9,
+						"height": 12,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5526856,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 117679168559192,
+				"name": "dead",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 2
+			}
+		],
+		"subfolders": []
+	}
+}

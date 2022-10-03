@@ -1,0 +1,48 @@
+{
+	"name": "coinDrops",
+	"plugin-id": "Sprite",
+	"sid": 788915600677773,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 163340079024837
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine2",
+			"sid": 651789750968387
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 7,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3382643,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 160282669454904,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

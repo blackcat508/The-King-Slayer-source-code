@@ -1,0 +1,48 @@
+{
+	"name": "healthDrops",
+	"plugin-id": "Sprite",
+	"sid": 414712530550866,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 335522221435193
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine2",
+			"sid": 622202103768335
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 7,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6552318,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 317363310800852,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

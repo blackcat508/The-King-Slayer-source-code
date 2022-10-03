@@ -1,0 +1,48 @@
+{
+	"name": "sawblade",
+	"plugin-id": "Sprite",
+	"sid": 852863743576181,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Orbit",
+			"name": "Orbit",
+			"sid": 498550824418002
+		},
+		{
+			"behaviorId": "Rotate",
+			"name": "Rotate",
+			"sid": 206242408458559
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 12,
+						"height": 12,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8697507,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 798986355533751,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

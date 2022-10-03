@@ -1,0 +1,26 @@
+{
+	"name": "SloMoready",
+	"plugin-id": "Spritefont2",
+	"sid": 174543343522501,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 115344814889355
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 1024,
+		"height": 32,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"imageSpriteId": 9841426,
+		"useCollisionPoly": true
+	}
+}
