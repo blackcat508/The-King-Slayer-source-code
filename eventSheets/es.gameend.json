@@ -1,0 +1,155 @@
+{
+	"name": "es.gameEnd",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 609726688977814,
+					"parameters": {
+						"object": "button"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "button",
+					"sid": 973432735915604,
+					"parameters": {
+						"frame-number": "1"
+					}
+				}
+			],
+			"sid": 720312939989347
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 594075771875900,
+					"parameters": {
+						"object": "button"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "button",
+					"sid": 816682483700136,
+					"parameters": {
+						"frame-number": "0"
+					}
+				}
+			],
+			"sid": 320948928624613
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 477443908545216,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "button"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 536773749076522,
+					"parameters": {
+						"audio-file": "select",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 202667257865918,
+					"parameters": {
+						"layout": "title"
+					}
+				}
+			],
+			"sid": 742586906302602
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 986086324301956
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "score",
+					"sid": 237884276028470,
+					"parameters": {
+						"text": "\"FINALE SCORE: \"&score"
+					}
+				}
+			],
+			"sid": 357460048422191
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 298169746390891
+				}
+			],
+			"actions": [
+				{
+					"id": "set-time-scale",
+					"objectClass": "System",
+					"sid": 798478785117659,
+					"parameters": {
+						"time-scale": "1"
+					}
+				}
+			],
+			"sid": 338865442395266
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 523897445532605
+				}
+			],
+			"actions": [
+				{
+					"id": "set-cursor-from-sprite",
+					"objectClass": "Mouse",
+					"sid": 135719285506239,
+					"parameters": {
+						"sprite": "mouseobject"
+					}
+				}
+			],
+			"sid": 785259321816185
+		}
+	],
+	"sid": 519827208234760
+}

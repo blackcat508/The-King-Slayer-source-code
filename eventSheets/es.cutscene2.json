@@ -1,0 +1,142 @@
+{
+	"name": "es.cutscene2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 568175840803161
+				}
+			],
+			"actions": [
+				{
+					"id": "typewriter-text",
+					"objectClass": "misctxt",
+					"sid": 946751013354397,
+					"parameters": {
+						"text": "\"The kings crown calls to you from across the floor... and you cant seem to resist the urge to grab it...\"",
+						"duration": "10"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 650482481830878,
+					"parameters": {
+						"seconds": "12"
+					}
+				},
+				{
+					"id": "move-to-position",
+					"objectClass": "newKingCutscene",
+					"sid": 417471667648122,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"x": "725 ",
+						"y": "159",
+						"mode": "direct"
+					}
+				},
+				{
+					"id": "typewriter-text",
+					"objectClass": "misctxt",
+					"sid": 474724088871320,
+					"parameters": {
+						"text": "\"You instinctively put the crown atop your head... and a new king is born.\"",
+						"duration": "10"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 171091733577598,
+					"parameters": {
+						"seconds": "12"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "blackfade",
+					"sid": 576497876122230,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "start-fade",
+					"objectClass": "blackfade",
+					"sid": 569543369229913,
+					"behaviorType": "Fade"
+				}
+			],
+			"sid": 581927869132754
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-fade-in-finished",
+					"objectClass": "blackfade",
+					"sid": 818366133368678,
+					"behaviorType": "Fade"
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 144172355375205,
+					"parameters": {
+						"layout": "gameEnd"
+					}
+				}
+			],
+			"sid": 627093370715155
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 923958130560339
+				}
+			],
+			"actions": [
+				{
+					"id": "set-time-scale",
+					"objectClass": "System",
+					"sid": 295889357609624,
+					"parameters": {
+						"time-scale": "1"
+					}
+				}
+			],
+			"sid": 757894677748499
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 315424621653691
+				}
+			],
+			"actions": [
+				{
+					"id": "set-cursor-from-sprite",
+					"objectClass": "Mouse",
+					"sid": 238889907160769,
+					"parameters": {
+						"sprite": "mouseobject"
+					}
+				}
+			],
+			"sid": 118130216639867
+		}
+	],
+	"sid": 203279707688273
+}

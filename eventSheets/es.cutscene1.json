@@ -1,0 +1,127 @@
+{
+	"name": "es.cutscene1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 489478033048175
+				}
+			],
+			"actions": [
+				{
+					"id": "typewriter-text",
+					"objectClass": "misctxt",
+					"sid": 640582292733603,
+					"parameters": {
+						"text": "\"For too long has the wicked king ruled over the people... It is time for you to put an end to it.\"",
+						"duration": "10"
+					}
+				}
+			],
+			"sid": 570139049576407
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-typewriter-text-finished",
+					"objectClass": "misctxt",
+					"sid": 288309518358580
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 799218713818249,
+					"parameters": {
+						"seconds": "3"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "blackfade",
+					"sid": 937846869725918,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "start-fade",
+					"objectClass": "blackfade",
+					"sid": 771359575043440,
+					"behaviorType": "Fade"
+				}
+			],
+			"sid": 708045278624578
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-fade-in-finished",
+					"objectClass": "blackfade",
+					"sid": 469169635625796,
+					"behaviorType": "Fade"
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 697000707298692,
+					"parameters": {
+						"layout": "game"
+					}
+				}
+			],
+			"sid": 375911342254080
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 143500974845922
+				}
+			],
+			"actions": [
+				{
+					"id": "set-time-scale",
+					"objectClass": "System",
+					"sid": 258756783755505,
+					"parameters": {
+						"time-scale": "1"
+					}
+				}
+			],
+			"sid": 822573897045716
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 188706771066737
+				}
+			],
+			"actions": [
+				{
+					"id": "set-cursor-from-sprite",
+					"objectClass": "Mouse",
+					"sid": 116223993922632,
+					"parameters": {
+						"sprite": "mouseobject"
+					}
+				}
+			],
+			"sid": 268385735199920
+		}
+	],
+	"sid": 658754347421768
+}

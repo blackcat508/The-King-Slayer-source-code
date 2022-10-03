@@ -1,0 +1,190 @@
+{
+	"name": "es.GameOver",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 155557935074641,
+					"parameters": {
+						"object": "button"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "button",
+					"sid": 207043314514471,
+					"parameters": {
+						"frame-number": "1"
+					}
+				}
+			],
+			"sid": 221530321868679
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 857612499656822,
+					"parameters": {
+						"object": "button"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "button",
+					"sid": 267463923048947,
+					"parameters": {
+						"frame-number": "0"
+					}
+				}
+			],
+			"sid": 996445220233117
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 345158038519204,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "button"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 234008520517521,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "button",
+							"sid": 469064056089102,
+							"parameters": {
+								"instance-variable": "type",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 211866036683250,
+							"parameters": {
+								"audio-file": "select",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 745056937739981,
+							"parameters": {
+								"layout": "title"
+							}
+						}
+					],
+					"sid": 367676191310083
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "button",
+							"sid": 243320447614176,
+							"parameters": {
+								"instance-variable": "type",
+								"comparison": 0,
+								"value": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 254468286778758,
+							"parameters": {
+								"audio-file": "select",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "load",
+							"objectClass": "System",
+							"sid": 114713863336970,
+							"parameters": {
+								"slot": "\"mysave\""
+							}
+						}
+					],
+					"sid": 788564566690121
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 916747901218600
+				}
+			],
+			"actions": [
+				{
+					"id": "set-time-scale",
+					"objectClass": "System",
+					"sid": 280343196230135,
+					"parameters": {
+						"time-scale": "1"
+					}
+				}
+			],
+			"sid": 633214633453429
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 523059641307095
+				}
+			],
+			"actions": [
+				{
+					"id": "set-cursor-from-sprite",
+					"objectClass": "Mouse",
+					"sid": 496801662031595,
+					"parameters": {
+						"sprite": "mouseobject"
+					}
+				}
+			],
+			"sid": 454134096205234
+		}
+	],
+	"sid": 886621236703902
+}
