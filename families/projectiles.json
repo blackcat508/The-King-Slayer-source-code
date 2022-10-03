@@ -1,0 +1,15 @@
+{
+	"name": "projectiles",
+	"plugin-id": "Sprite",
+	"sid": 309917334453096,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"PistolBullet",
+		"miniGunBullet",
+		"bullet",
+		"shotgun",
+		"bomberBulletStart"
+	]
+}

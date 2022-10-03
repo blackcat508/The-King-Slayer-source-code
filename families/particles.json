@@ -1,0 +1,16 @@
+{
+	"name": "particles",
+	"plugin-id": "Particles",
+	"sid": 258334943855838,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"MGparticles",
+		"orbParticles",
+		"pistolParticles",
+		"playerDeadParticles",
+		"SawParticles",
+		"shotgunParticles"
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"name": "harmfull",
+	"plugin-id": "Sprite",
+	"sid": 177446328856161,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"bullet",
+		"enemy",
+		"bomber",
+		"bomberBulletStart",
+		"machineGunEnemy"
+	]
+}
